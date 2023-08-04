@@ -1,0 +1,145 @@
+*{
+    font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    background: url('./assets/background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow-y: scroll;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+
+.data{
+    color: #F5F5DC;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 760px;
+    min-height: 300px;
+    max-height: 700px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBar{
+    display: flex;
+    max-width: 500px;
+    min-width: 350px;
+    height: 3rem;
+    background-color: rgb(187, 215, 255);
+    border-radius: 25px;
+    padding: 0 14px;
+    align-items: center;
+    border: 2px solid rgb(97, 97, 138);
+}
+
+#location{
+    width: 100%;
+    margin: 2px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label{
+    margin-top: 1.5rem;
+    margin-bottom: 2px;
+    color: rgba(25, 21, 66, 0.932);
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info{
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    width: 70%;
+    min-height: 200px;
+    max-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+}
+
+.info>div{
+    flex-grow: 1;
+    width: 50%;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100%;
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.801);
+    padding: 15px;
+    text-align: center;
+    font-family: Impact;
+    letter-spacing: 1.2px;
+}
+
+#desc{
+    font-size: 1rem;
+    color: rgb(209, 164, 100);
+}
+
+.nameTemp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#temp{
+    color: rgb(255, 225, 58)
+}
+
+#cl{
+    color: rgb(13, 59, 110);
+}
+
+#alert{
+    color: red;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#load{
+    color: chartreuse;
+    text-align: center;
+    margin-top: 2rem;
+}
